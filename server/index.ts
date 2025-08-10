@@ -3,7 +3,7 @@ export default {
 		const url = new URL(request.url);
 
 		if (url.pathname.endsWith('/api/')) {
-			return Response.json({ name: 'Cloudflare' });
+			return Response.json({ message: 'Hello, World' });
 		}
 
 		return new Response(null, { status: 404 });
