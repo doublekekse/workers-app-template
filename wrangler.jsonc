@@ -1,0 +1,19 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ *
+ * Note: Use secrets to store sensitive data.
+ * https://developers.cloudflare.com/workers/configuration/secrets/
+ */
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "my-app",
+	"compatibility_date": "2025-08-10",
+	"main": "server/index.ts",
+	"assets": {
+		"not_found_handling": "single-page-application"
+	},
+	"observability": {
+		"enabled": true
+	}
+}
