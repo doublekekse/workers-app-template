@@ -5,7 +5,7 @@ import HelloWorldButton from '@/components/HelloWorldButton.vue';
 <template>
 	<main>
 		<h1>Everything Works!</h1>
-		<HelloWorldButton />
+		<HelloWorldButton/>
 	</main>
 </template>
 
